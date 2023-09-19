@@ -3,36 +3,42 @@
 }
 
 :root{
-    font-family: --fontfamily(Arial, Helvetica, sans-serif);
+    --font-family:(Arial, Helvetica, sans-serif)
 
 
 }
 
 body{
  background-color: darkslategrey;
-
+ display: flex;
+flex-direction: column;
 }
 
 header{
     background-color: dimgrey;
-
+    font-family: var(--font-family);
 
 
 }
 
 aside{
     font-size: 30px;
-
+    font-family: var(--fontfamily);
 
 }
 body section{
+    font-family: var(--fontfamily);
 
     
 }
+section h1{
+    
 
+
+}
 
 header section{
-
+    font-family: var(--fontfamily);
 
 }
 
@@ -40,10 +46,14 @@ header section{
 header h1{
     text-align: center;
     font-size: 45px;
+    font-family: var(--fontfamily);
 
 
 }
 footer{
+    margin-top: 100px;
+    
+    
     background-color: tan;
 
 
@@ -51,19 +61,130 @@ footer{
 }
 
 footer ul{
-    display: inline-block;
+    display: inline-block; list-style: lower-greek;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
     
 
 
 }
 footer h1{
-    font-size: 38px;
-    font-family: var(--fontfamily);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif
     
 
 
 }
-:hover body{
 
+#css-tooltip {
+    position: relative;
+    text-decoration: double;
+    color: white;
+    cursor: pointer;
 
+}
+
+#css-tooltip:hover::after {
+    content: "555-555-5050" ;
+    position: absolute;
+    left: 0px;
+  bottom: 24px;
+  min-width: 200px;
+  border: 3px;color: black;
+  background-color: darkslategrey ;
+  padding: 12px;
+  color: #fff;
+  font-size: 100%;
+  z-index: 1;
+}
+
+#css-tooltip1 {
+    position: relative;
+    text-decoration: double;
+    color: white;
+    cursor: pointer;
+
+}
+
+#css-tooltip1:hover::after {
+    content: "cpapanicholas@gmail.com" ;
+    position: absolute;
+    left: 0px;
+  bottom: 24px;
+  min-width: 200px;
+  border: 3px;color: black;
+  background-color: darkslategrey ;
+  padding: 12px;
+  color: #fff;
+  font-size: 100%;
+  z-index: 1;
+}
+
+#css-tooltip2 {
+    position: relative;
+    text-decoration: double;
+    color: white;
+    cursor: pointer;
+
+}
+
+#css-tooltip2:hover::after {
+    content: "Cpapanicholas Linked In" ;
+    position: absolute;
+    left: 0px;
+  bottom: 24px;
+  min-width: 200px;
+  border: 3px;color: black;
+  background-color: darkslategrey ;
+  padding: 12px;
+  color: #fff;
+  font-size: 100%;
+  z-index: 1;
+}
+
+#css-tooltip3 {
+    position: relative;
+    text-decoration: double;
+    color: white;
+    cursor: pointer;
+
+}
+
+#css-tooltip3:hover::after {
+    content: "Cpapanicholas Indeed" ;
+    position: absolute;
+    left: 0px;
+  bottom: 24px;
+  min-width: 200px;
+  border: 3px;color: black;
+  background-color: darkslategrey ;
+  padding: 12px;
+  color: #fff;
+  font-size: 100%;
+  z-index: 1;
+}
+
+#css-tooltip4 {
+    position: relative;
+    text-decoration: double;
+    color: white;
+    cursor: pointer;
+
+}
+
+#css-tooltip4:hover::after {
+    content: "Cpapanicholas Resume" ;
+    position: absolute;
+    right: 0px;
+  bottom: 24px;
+  min-width: 200px;
+  border: 3px;color: black;
+  background-color: darkslategrey ;
+  padding: 12px;
+  color: #fff;
+  font-size: 100%;
+  z-index: 1;
 }
