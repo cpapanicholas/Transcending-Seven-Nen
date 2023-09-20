@@ -24,4 +24,5 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Link: 
 
-## SS:
+## SS:![image](https://github.com/cpapanicholas/Transcending-Seven-Nen/assets/144556211/7d98b541-ffd6-4bfa-be91-7d37bd217e28)
+
