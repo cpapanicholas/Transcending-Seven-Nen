@@ -22,7 +22,7 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
-## Link: 
+## Deployed Link: https://cpapanicholas.github.io/Transcending-Seven-Nen/
 
 ## SS:![image](https://github.com/cpapanicholas/Transcending-Seven-Nen/assets/144556211/7d98b541-ffd6-4bfa-be91-7d37bd217e28)
 
